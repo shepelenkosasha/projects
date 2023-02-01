@@ -1,0 +1,150 @@
+body, h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(1, 45, 45);
+}
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(1, 45, 45);
+}
+header p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+h1{
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+footer{
+    background: rgb(1, 45, 45);
+}
+footer div{
+    text-align: center;
+    padding: 30px 0px;
+    color: white;
+}
+/*
+Main style
+*/
+.wrapper-log{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 200px;   
+}
+.wrapper-log a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.wrapper-article{
+    margin: 0 auto;
+    text-align: center;
+}
+.article{
+    padding-bottom: 30px;
+}
+.article h4{
+    font-size: 20px;
+}
+.article img{
+    width: 200px;
+}
+.ancor,
+input[type=text],
+input[type=password],
+input[type=submit],
+input[type=file],
+select,
+textarea{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: rgb(1, 45, 45);
+    border: 2px solid rgb(1, 45, 45);
+    border-radius: 10px;
+}
+.ancor:hover,
+input[type=submit]:hover,
+input[type=file]:hover{
+    color: white;
+    background-color: rgb(1, 45, 45);
+}
+.article div{
+    margin-top: 40px;
+}
+/*
+Login style
+*/
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 150px auto;
+    padding-bottom: 40px;
+    max-width: 400px;
+    border: 2px solid rgb(1, 45, 45);
+    border-radius: 10px;
+}
+.login-form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ancor-block{
+    margin-top: 20px;
+}
+input[type=submit],
+input[type=file]{
+    margin-top: 10px;
+    background: transparent;
+    cursor: pointer;
+}
+.error-message{
+    text-align: center;
+    font-size: 18px;
+    color: red;
+}
+/*
+Admin style
+*/
+.wrapper-article-admin{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 30px;
+}
+.wrapper-article-admin div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-article-admin img{
+    width: 100px;
+}
+.wrapper-article-admin_ancor-wrap a{
+    margin-top: 20px;
+}
+/*
+Create Update form
+*/
+.create_update-form{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+    border: 2px solid rgb(1, 45, 45);
+    border-radius: 10px;
+}
